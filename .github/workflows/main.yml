@@ -34,3 +34,5 @@ jobs:
           containerAppName: pythonapp
           resourceGroup: my-rg
           
+      - run: |
+          echo "CA_GH_ACTION_RUNTIME_STACK = $CA_GH_ACTION_RUNTIME_STACK"
