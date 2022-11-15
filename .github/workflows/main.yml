@@ -27,7 +27,7 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }} 
 
       - name: Build and deploy Container App
-        uses: azure/container-apps-deploy-action@6afc1b4
+        uses: azure/container-apps-deploy-action@6afc1b47260a0b1550c21a579c48c8bd3ccbba5c
         with:
           appSourcePath: ${{ github.workspace }}
           acrName: cad4dcdc86aaacr
