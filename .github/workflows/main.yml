@@ -28,10 +28,12 @@ jobs:
       - name: Build and deploy Container App
         uses: azure/container-apps-deploy-action@corm/fix-no-dockerfile-scenario
         with:
-          appSourcePath: ${{ github.workspace }}
+#           appSourcePath: ${{ github.workspace }}
           acrName: cad4dcdc86aaacr
           containerAppName: pythonapp
           resourceGroup: my-rg
+          imageToDeploy: nginx:latest
+          targetPort: 80
           
       - run: |
           echo "CA_GH_ACTION_RUNTIME_STACK = $CA_GH_ACTION_RUNTIME_STACK"
