@@ -26,7 +26,7 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }} 
 
       - name: Build and deploy Container App
-        uses: azure/container-apps-deploy-action@corm/fix-no-dockerfile-scenario
+        uses: azure/container-app-deploy-action@v0
         with:
           appSourcePath: ${{ github.workspace }}
           acrName: cafcd1ab3c48acr
