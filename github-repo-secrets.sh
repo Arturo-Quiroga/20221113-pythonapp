@@ -9,7 +9,7 @@ az ad sp create-for-rbac \
 # OUTPUT:
 {
   "clientId": "c2035789-a1a7-4092-915b-fa19211dbc43",
-  "clientSecret": "HWv8Q~ndFVYMUseIHrv67pOKTxSCAz2DqOGWUbr7",
+  "clientSecret": "Pbx8Q~ozRi8IerhgtjYdLcx6AlQ2qy1.nFUPVdc~",
   "subscriptionId": "83d06084-4157-4e25-adfa-4477e0910f91",
   "tenantId": "f76e354f-c33a-45a7-aa21-aacc89d7f071",
   "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
