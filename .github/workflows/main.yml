@@ -1,4 +1,4 @@
-name: Container Apps Deploy
+name: Container Apps Build and Deploy
 
 on:
   push:

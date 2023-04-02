@@ -3,10 +3,6 @@
 
 # The action uses the Dockerfile in appSourcePath to build the container image. 
 # If no Dockerfile is found, the action attempts to build the container image from source code in appSourcePath.
-
-
-
-
 steps:
 
   - name: Log in to Azure
@@ -24,7 +20,7 @@ steps:
 
 
 
-# more complete workflow:
+# This is a more complete workflow:
 
 name: Azure Container Apps Deploy
 
